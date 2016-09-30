@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5C8BF30FB8BDEF37D6F10B /* libPods-IntraCityService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259F6E40A329C75654BF37A /* libPods-IntraCityService.a */; };
 		E9D2D2331D9E034B0081CBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2321D9E034B0081CBCD /* main.m */; };
 		E9D2D2361D9E034B0081CBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2351D9E034B0081CBCD /* AppDelegate.m */; };
 		E9D2D2391D9E034B0081CBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2381D9E034B0081CBCD /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		E9D2D2411D9E034B0081CBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D2D23F1D9E034B0081CBCD /* LaunchScreen.storyboard */; };
 		E9D2D24C1D9E034B0081CBCD /* IntraCityServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D24B1D9E034B0081CBCD /* IntraCityServiceTests.m */; };
 		E9D2D2571D9E034B0081CBCD /* IntraCityServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2561D9E034B0081CBCD /* IntraCityServiceUITests.m */; };
+		E9D2D26C1D9E04640081CBCD /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D26B1D9E04640081CBCD /* AFAppDotNetAPIClient.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2731D9E07FB0081CBCD /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2721D9E07FB0081CBCD /* MainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2761D9E08680081CBCD /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2751D9E08680081CBCD /* RootNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2811D9E0B050081CBCD /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9D2D27A1D9E0B050081CBCD /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2821D9E0B050081CBCD /* MBProgressHUD+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D27C1D9E0B050081CBCD /* MBProgressHUD+HUD.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2831D9E0B050081CBCD /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D27E1D9E0B050081CBCD /* UIBarButtonItem+Item.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2841D9E0B050081CBCD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2801D9E0B050081CBCD /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
+		E9D2D2871D9E0B2F0081CBCD /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2861D9E0B2F0081CBCD /* CheckDataTool.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2259F6E40A329C75654BF37A /* libPods-IntraCityService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntraCityService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974DCE5D5C27D2745490E03C /* Pods-IntraCityService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntraCityService.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService.release.xcconfig"; sourceTree = "<group>"; };
+		BFE3A73C2637DB1E5CE72DE2 /* Pods-IntraCityService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntraCityService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService.debug.xcconfig"; sourceTree = "<group>"; };
 		E9D2D22E1D9E034B0081CBCD /* IntraCityService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntraCityService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2D2321D9E034B0081CBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9D2D2341D9E034B0081CBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,23 @@
 		E9D2D2521D9E034B0081CBCD /* IntraCityServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntraCityServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2D2561D9E034B0081CBCD /* IntraCityServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntraCityServiceUITests.m; sourceTree = "<group>"; };
 		E9D2D2581D9E034B0081CBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D2D2681D9E04640081CBCD /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		E9D2D26A1D9E04640081CBCD /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		E9D2D26B1D9E04640081CBCD /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		E9D2D26D1D9E05900081CBCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E9D2D2711D9E07FB0081CBCD /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		E9D2D2721D9E07FB0081CBCD /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		E9D2D2741D9E08680081CBCD /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		E9D2D2751D9E08680081CBCD /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		E9D2D27A1D9E0B050081CBCD /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E9D2D27B1D9E0B050081CBCD /* MBProgressHUD+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HUD.h"; sourceTree = "<group>"; };
+		E9D2D27C1D9E0B050081CBCD /* MBProgressHUD+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HUD.m"; sourceTree = "<group>"; };
+		E9D2D27D1D9E0B050081CBCD /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		E9D2D27E1D9E0B050081CBCD /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		E9D2D27F1D9E0B050081CBCD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E9D2D2801D9E0B050081CBCD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E9D2D2851D9E0B2F0081CBCD /* CheckDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckDataTool.h; sourceTree = "<group>"; };
+		E9D2D2861D9E0B2F0081CBCD /* CheckDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckDataTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5C8BF30FB8BDEF37D6F10B /* libPods-IntraCityService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672506DAA779D876EFC62490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3A73C2637DB1E5CE72DE2 /* Pods-IntraCityService.debug.xcconfig */,
+				974DCE5D5C27D2745490E03C /* Pods-IntraCityService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DF9C77B3369D1C89D09B883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2259F6E40A329C75654BF37A /* libPods-IntraCityService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9D2D2251D9E034B0081CBCD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				E9D2D24A1D9E034B0081CBCD /* IntraCityServiceTests */,
 				E9D2D2551D9E034B0081CBCD /* IntraCityServiceUITests */,
 				E9D2D22F1D9E034B0081CBCD /* Products */,
+				672506DAA779D876EFC62490 /* Pods */,
+				6DF9C77B3369D1C89D09B883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +150,15 @@
 		E9D2D2301D9E034B0081CBCD /* IntraCityService */ = {
 			isa = PBXGroup;
 			children = (
+				E9D2D2781D9E0ABA0081CBCD /* Category */,
+				E9D2D2791D9E0ABA0081CBCD /* Tool */,
+				E9D2D2671D9E04640081CBCD /* Config */,
+				E9D2D2691D9E04640081CBCD /* Networking Extensions */,
+				E9D2D2651D9E040E0081CBCD /* Model */,
+				E9D2D2661D9E040E0081CBCD /* View */,
+				E9D2D2641D9E03EC0081CBCD /* Controller */,
 				E9D2D2341D9E034B0081CBCD /* AppDelegate.h */,
 				E9D2D2351D9E034B0081CBCD /* AppDelegate.m */,
-				E9D2D2371D9E034B0081CBCD /* ViewController.h */,
-				E9D2D2381D9E034B0081CBCD /* ViewController.m */,
-				E9D2D23A1D9E034B0081CBCD /* Main.storyboard */,
-				E9D2D23D1D9E034B0081CBCD /* Assets.xcassets */,
-				E9D2D23F1D9E034B0081CBCD /* LaunchScreen.storyboard */,
-				E9D2D2421D9E034B0081CBCD /* Info.plist */,
 				E9D2D2311D9E034B0081CBCD /* Supporting Files */,
 			);
 			path = IntraCityService;
@@ -117,6 +167,13 @@
 		E9D2D2311D9E034B0081CBCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9D2D26D1D9E05900081CBCD /* PrefixHeader.pch */,
+				E9D2D2371D9E034B0081CBCD /* ViewController.h */,
+				E9D2D2381D9E034B0081CBCD /* ViewController.m */,
+				E9D2D23A1D9E034B0081CBCD /* Main.storyboard */,
+				E9D2D23D1D9E034B0081CBCD /* Assets.xcassets */,
+				E9D2D23F1D9E034B0081CBCD /* LaunchScreen.storyboard */,
+				E9D2D2421D9E034B0081CBCD /* Info.plist */,
 				E9D2D2321D9E034B0081CBCD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +197,71 @@
 			path = IntraCityServiceUITests;
 			sourceTree = "<group>";
 		};
+		E9D2D2641D9E03EC0081CBCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2D2711D9E07FB0081CBCD /* MainTabBarController.h */,
+				E9D2D2721D9E07FB0081CBCD /* MainTabBarController.m */,
+				E9D2D2741D9E08680081CBCD /* RootNavigationController.h */,
+				E9D2D2751D9E08680081CBCD /* RootNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9D2D2651D9E040E0081CBCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9D2D2661D9E040E0081CBCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9D2D2671D9E04640081CBCD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2D2681D9E04640081CBCD /* Config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E9D2D2691D9E04640081CBCD /* Networking Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2D26A1D9E04640081CBCD /* AFAppDotNetAPIClient.h */,
+				E9D2D26B1D9E04640081CBCD /* AFAppDotNetAPIClient.m */,
+			);
+			path = "Networking Extensions";
+			sourceTree = "<group>";
+		};
+		E9D2D2781D9E0ABA0081CBCD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2D27A1D9E0B050081CBCD /* MBProgressHUD.bundle */,
+				E9D2D27B1D9E0B050081CBCD /* MBProgressHUD+HUD.h */,
+				E9D2D27C1D9E0B050081CBCD /* MBProgressHUD+HUD.m */,
+				E9D2D27D1D9E0B050081CBCD /* UIBarButtonItem+Item.h */,
+				E9D2D27E1D9E0B050081CBCD /* UIBarButtonItem+Item.m */,
+				E9D2D27F1D9E0B050081CBCD /* UIColor+Hex.h */,
+				E9D2D2801D9E0B050081CBCD /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E9D2D2791D9E0ABA0081CBCD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2D2851D9E0B2F0081CBCD /* CheckDataTool.h */,
+				E9D2D2861D9E0B2F0081CBCD /* CheckDataTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D2D25B1D9E034B0081CBCD /* Build configuration list for PBXNativeTarget "IntraCityService" */;
 			buildPhases = (
+				C5F45CD5EC113A922D17F2BD /* Check Pods Manifest.lock */,
 				E9D2D22A1D9E034B0081CBCD /* Sources */,
 				E9D2D22B1D9E034B0081CBCD /* Frameworks */,
 				E9D2D22C1D9E034B0081CBCD /* Resources */,
+				F6A3D950E6CEA257B0358098 /* Embed Pods Frameworks */,
+				A609C3A1F9BB1130C8F1DEC6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D2D2411D9E034B0081CBCD /* LaunchScreen.storyboard in Resources */,
+				E9D2D2811D9E0B050081CBCD /* MBProgressHUD.bundle in Resources */,
 				E9D2D23E1D9E034B0081CBCD /* Assets.xcassets in Resources */,
 				E9D2D23C1D9E034B0081CBCD /* Main.storyboard in Resources */,
 			);
@@ -265,13 +391,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A609C3A1F9BB1130C8F1DEC6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F45CD5EC113A922D17F2BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A3D950E6CEA257B0358098 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9D2D22A1D9E034B0081CBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D2D26C1D9E04640081CBCD /* AFAppDotNetAPIClient.m in Sources */,
+				E9D2D2831D9E0B050081CBCD /* UIBarButtonItem+Item.m in Sources */,
+				E9D2D2761D9E08680081CBCD /* RootNavigationController.m in Sources */,
+				E9D2D2731D9E07FB0081CBCD /* MainTabBarController.m in Sources */,
+				E9D2D2841D9E0B050081CBCD /* UIColor+Hex.m in Sources */,
 				E9D2D2391D9E034B0081CBCD /* ViewController.m in Sources */,
+				E9D2D2871D9E0B2F0081CBCD /* CheckDataTool.m in Sources */,
 				E9D2D2361D9E034B0081CBCD /* AppDelegate.m in Sources */,
+				E9D2D2821D9E0B050081CBCD /* MBProgressHUD+HUD.m in Sources */,
 				E9D2D2331D9E034B0081CBCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,9 +592,12 @@
 		};
 		E9D2D25C1D9E034B0081CBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE3A73C2637DB1E5CE72DE2 /* Pods-IntraCityService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ioi/Desktop/同城/IntraCityService/IntraCityService/PrefixHeader.pch";
 				INFOPLIST_FILE = IntraCityService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.IntraCityService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +606,12 @@
 		};
 		E9D2D25D1D9E034B0081CBCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974DCE5D5C27D2745490E03C /* Pods-IntraCityService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ioi/Desktop/同城/IntraCityService/IntraCityService/PrefixHeader.pch";
 				INFOPLIST_FILE = IntraCityService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.IntraCityService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +685,7 @@
 				E9D2D25D1D9E034B0081CBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D2D25E1D9E034B0081CBCD /* Build configuration list for PBXNativeTarget "IntraCityServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +694,7 @@
 				E9D2D2601D9E034B0081CBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D2D2611D9E034B0081CBCD /* Build configuration list for PBXNativeTarget "IntraCityServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +703,7 @@
 				E9D2D2631D9E034B0081CBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
