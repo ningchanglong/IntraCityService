@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
-#import "RootNavigationController.h"
-@interface AppDelegate ()
+
+@interface AppDelegate ()<AMapLocationManagerDelegate>
 
 @end
 
@@ -19,11 +19,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     MainTabBarController * tabBarC = [[MainTabBarController alloc] init];
-    RootNavigationController * navC = [[RootNavigationController alloc] initWithRootViewController:tabBarC];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = navC;
+    self.window.rootViewController = tabBarC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    /**
+     * 高德地图配置
+     */
+    
+    [MAMapServices sharedServices].apiKey = AMapKey;
+    [AMapLocationServices sharedServices].apiKey = AMapKey;
+//    AMapLocationManager *locationManager = [[AMapLocationManager alloc] init];
+//    [locationManager setDelegate:self];
+//    [locationManager setPausesLocationUpdatesAutomatically:NO];
+//    [locationManager setDesiredAccuracy:kCLLocationAccuracyHundredMeters];
     return YES;
 }
 

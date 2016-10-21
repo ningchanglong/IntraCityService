@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - AMap3DMap (3.3.1)
+  - AMapLocation (1.1.1)
+  - AMapSearch (3.2.0)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.0)
@@ -23,6 +26,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -30,6 +36,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMap3DMap: 3962358ac36d17b3aaf03975ab534690f8af066f
+  AMapLocation: fc0245146ef90811f9590d428e9035a2a64f4526
+  AMapSearch: a885f0702578a441a22cb66fa74f8918c6d19e6f
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4

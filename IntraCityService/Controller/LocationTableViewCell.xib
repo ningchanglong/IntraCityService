@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LocationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-6S-QUX">
+                        <rect key="frame" x="18" y="6" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="PF2-xc-Llb"/>
+                            <constraint firstAttribute="height" constant="32" id="VWs-2w-fCy"/>
+                        </constraints>
+                        <state key="normal" image="location"/>
+                        <connections>
+                            <action selector="locationClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uxb-Tf-DVJ"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COA-Sc-V2v">
+                        <rect key="frame" x="58" y="11" width="307" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="e93-vA-L2y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-Pr-VRw">
+                        <rect key="frame" x="58" y="11" width="307" height="21"/>
+                        <connections>
+                            <action selector="currentLocationClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MKB-t7-eDI"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="COA-Sc-V2v" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CWM-Of-aq8"/>
+                    <constraint firstItem="VTA-6S-QUX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="Qew-CL-0Cb"/>
+                    <constraint firstItem="dNH-Pr-VRw" firstAttribute="leading" secondItem="COA-Sc-V2v" secondAttribute="leading" id="Sz9-kJ-1xu"/>
+                    <constraint firstItem="COA-Sc-V2v" firstAttribute="leading" secondItem="VTA-6S-QUX" secondAttribute="trailing" constant="8" id="TZr-fE-uzR"/>
+                    <constraint firstAttribute="trailing" secondItem="COA-Sc-V2v" secondAttribute="trailing" constant="10" id="aL7-GQ-JyP"/>
+                    <constraint firstItem="dNH-Pr-VRw" firstAttribute="width" secondItem="COA-Sc-V2v" secondAttribute="width" id="cGo-UY-WaH"/>
+                    <constraint firstItem="dNH-Pr-VRw" firstAttribute="top" secondItem="COA-Sc-V2v" secondAttribute="top" id="di3-dd-hdV"/>
+                    <constraint firstItem="VTA-6S-QUX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vBK-ae-kZK"/>
+                    <constraint firstItem="dNH-Pr-VRw" firstAttribute="height" secondItem="COA-Sc-V2v" secondAttribute="height" id="xS8-FO-7gs"/>
+                    <constraint firstItem="VTA-6S-QUX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="y9W-Dx-4DE"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="y9W-Dx-4DE"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="LocationBtn" destination="dNH-Pr-VRw" id="kKe-Nl-A7h"/>
+                <outlet property="locationLab" destination="COA-Sc-V2v" id="qpJ-Q2-sSh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="location" width="32" height="32"/>
+    </resources>
+</document>

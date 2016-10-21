@@ -9,15 +9,15 @@
 #ifndef Config_h
 #define Config_h
 
-#define kScreenW [UIScreen mainScreen].bounds.size.width
-#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define SCR_W [UIScreen mainScreen].bounds.size.width
+#define SCR_H [UIScreen mainScreen].bounds.size.height
 
 #define Main_Color [UIColor colorWithRed:(253)/255.0 green:(163)/255.0 blue:(19)/255.0 alpha:1.0]
 #define RootNav_Color [UIColor colorWithHexString:@"#1c96e2" alpha:1.0]
-
+#define MainTabBar_Color [UIColor colorWithHexString:@"#d5d5d5" alpha:1.0]
 #define kUserDefaults [NSUserDefaults standardUserDefaults]
-#define COLOR_MAIN_BAR [UIColor colorWithRed:85/255.0f green:133/255.0f blue:193/255.0f alpha:1]
-
+#define COLOR_MAIN_BAR [UIColor colorWithHexString:@"#286688" alpha:1.0]
+#define AMapKey @"eda4d92cbf2942d5eb56cfd9394fe9da"
 #define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 
 /**

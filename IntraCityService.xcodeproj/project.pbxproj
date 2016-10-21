@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BD5C8BF30FB8BDEF37D6F10B /* libPods-IntraCityService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259F6E40A329C75654BF37A /* libPods-IntraCityService.a */; };
+		E98CA62A1DA8E5A90088CCB6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CA6291DA8E5A90088CCB6 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E98CA62D1DA8E7860088CCB6 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CA62C1DA8E7860088CCB6 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E98CA6301DA8F02B0088CCB6 /* LoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CA62F1DA8F02B0088CCB6 /* LoginTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA5C1DA9CC5B001894D0 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA5B1DA9CC5B001894D0 /* ChangePasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA5F1DA9D225001894D0 /* RegisterAndChangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA5E1DA9D225001894D0 /* RegisterAndChangeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA621DA9E9B6001894D0 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA611DA9E9B6001894D0 /* UserModel.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA651DA9FF2B001894D0 /* AccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA641DA9FF2B001894D0 /* AccountTool.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA691DAA2D6D001894D0 /* MeIconTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA671DAA2D6D001894D0 /* MeIconTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA6A1DAA2D6D001894D0 /* MeIconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEA681DAA2D6D001894D0 /* MeIconTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA6D1DAA3109001894D0 /* icon_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEA6C1DAA3109001894D0 /* icon_01.png */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA711DAA32E1001894D0 /* MeOtherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEA6F1DAA32E1001894D0 /* MeOtherTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9ACEA721DAA32E1001894D0 /* MeOtherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEA701DAA32E1001894D0 /* MeOtherTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		E9D2D2331D9E034B0081CBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2321D9E034B0081CBCD /* main.m */; };
 		E9D2D2361D9E034B0081CBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2351D9E034B0081CBCD /* AppDelegate.m */; };
 		E9D2D2391D9E034B0081CBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2381D9E034B0081CBCD /* ViewController.m */; };
@@ -24,6 +36,16 @@
 		E9D2D2831D9E0B050081CBCD /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D27E1D9E0B050081CBCD /* UIBarButtonItem+Item.m */; settings = {ASSET_TAGS = (); }; };
 		E9D2D2841D9E0B050081CBCD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2801D9E0B050081CBCD /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
 		E9D2D2871D9E0B2F0081CBCD /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2D2861D9E0B2F0081CBCD /* CheckDataTool.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236801DA87E98008FE7DB /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2367F1DA87E98008FE7DB /* HallViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236831DA87EC2008FE7DB /* RescueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E236821DA87EC2008FE7DB /* RescueViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236861DA87ED9008FE7DB /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E236851DA87ED9008FE7DB /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236881DA8999E008FE7DB /* cityList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E236871DA8999E008FE7DB /* cityList.plist */; settings = {ASSET_TAGS = (); }; };
+		E9E236921DA899BC008FE7DB /* CitySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2368A1DA899BC008FE7DB /* CitySelectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236931DA899BC008FE7DB /* HotCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2368C1DA899BC008FE7DB /* HotCityTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236941DA899BC008FE7DB /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2368E1DA899BC008FE7DB /* LocationTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236951DA899BC008FE7DB /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E2368F1DA899BC008FE7DB /* LocationTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E9E236961DA899BC008FE7DB /* TransformMandarinLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E236911DA899BC008FE7DB /* TransformMandarinLatin.m */; settings = {ASSET_TAGS = (); }; };
+		E9E236991DA89BFF008FE7DB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E236981DA89BFF008FE7DB /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +69,27 @@
 		2259F6E40A329C75654BF37A /* libPods-IntraCityService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntraCityService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		974DCE5D5C27D2745490E03C /* Pods-IntraCityService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntraCityService.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService.release.xcconfig"; sourceTree = "<group>"; };
 		BFE3A73C2637DB1E5CE72DE2 /* Pods-IntraCityService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntraCityService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntraCityService/Pods-IntraCityService.debug.xcconfig"; sourceTree = "<group>"; };
+		E98CA6281DA8E5A90088CCB6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E98CA6291DA8E5A90088CCB6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E98CA62B1DA8E7860088CCB6 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E98CA62C1DA8E7860088CCB6 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E98CA62E1DA8F02B0088CCB6 /* LoginTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewCell.h; sourceTree = "<group>"; };
+		E98CA62F1DA8F02B0088CCB6 /* LoginTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewCell.m; sourceTree = "<group>"; };
+		E9ACEA5A1DA9CC5B001894D0 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		E9ACEA5B1DA9CC5B001894D0 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		E9ACEA5D1DA9D225001894D0 /* RegisterAndChangeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAndChangeTableViewCell.h; sourceTree = "<group>"; };
+		E9ACEA5E1DA9D225001894D0 /* RegisterAndChangeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAndChangeTableViewCell.m; sourceTree = "<group>"; };
+		E9ACEA601DA9E9B6001894D0 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		E9ACEA611DA9E9B6001894D0 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		E9ACEA631DA9FF2B001894D0 /* AccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTool.h; sourceTree = "<group>"; };
+		E9ACEA641DA9FF2B001894D0 /* AccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTool.m; sourceTree = "<group>"; };
+		E9ACEA661DAA2D6D001894D0 /* MeIconTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeIconTableViewCell.h; sourceTree = "<group>"; };
+		E9ACEA671DAA2D6D001894D0 /* MeIconTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeIconTableViewCell.m; sourceTree = "<group>"; };
+		E9ACEA681DAA2D6D001894D0 /* MeIconTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeIconTableViewCell.xib; sourceTree = "<group>"; };
+		E9ACEA6C1DAA3109001894D0 /* icon_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_01.png; sourceTree = "<group>"; };
+		E9ACEA6E1DAA32E1001894D0 /* MeOtherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeOtherTableViewCell.h; sourceTree = "<group>"; };
+		E9ACEA6F1DAA32E1001894D0 /* MeOtherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeOtherTableViewCell.m; sourceTree = "<group>"; };
+		E9ACEA701DAA32E1001894D0 /* MeOtherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeOtherTableViewCell.xib; sourceTree = "<group>"; };
 		E9D2D22E1D9E034B0081CBCD /* IntraCityService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntraCityService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2D2321D9E034B0081CBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9D2D2341D9E034B0081CBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +123,24 @@
 		E9D2D2801D9E0B050081CBCD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		E9D2D2851D9E0B2F0081CBCD /* CheckDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckDataTool.h; sourceTree = "<group>"; };
 		E9D2D2861D9E0B2F0081CBCD /* CheckDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckDataTool.m; sourceTree = "<group>"; };
+		E9E2367E1DA87E98008FE7DB /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		E9E2367F1DA87E98008FE7DB /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
+		E9E236811DA87EC2008FE7DB /* RescueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RescueViewController.h; sourceTree = "<group>"; };
+		E9E236821DA87EC2008FE7DB /* RescueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RescueViewController.m; sourceTree = "<group>"; };
+		E9E236841DA87ED9008FE7DB /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E9E236851DA87ED9008FE7DB /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E9E236871DA8999E008FE7DB /* cityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityList.plist; sourceTree = "<group>"; };
+		E9E236891DA899BC008FE7DB /* CitySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectionViewController.h; sourceTree = "<group>"; };
+		E9E2368A1DA899BC008FE7DB /* CitySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectionViewController.m; sourceTree = "<group>"; };
+		E9E2368B1DA899BC008FE7DB /* HotCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotCityTableViewCell.h; path = ../Controller/HotCityTableViewCell.h; sourceTree = "<group>"; };
+		E9E2368C1DA899BC008FE7DB /* HotCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotCityTableViewCell.m; path = ../Controller/HotCityTableViewCell.m; sourceTree = "<group>"; };
+		E9E2368D1DA899BC008FE7DB /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationTableViewCell.h; path = ../Controller/LocationTableViewCell.h; sourceTree = "<group>"; };
+		E9E2368E1DA899BC008FE7DB /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationTableViewCell.m; path = ../Controller/LocationTableViewCell.m; sourceTree = "<group>"; };
+		E9E2368F1DA899BC008FE7DB /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LocationTableViewCell.xib; path = ../Controller/LocationTableViewCell.xib; sourceTree = "<group>"; };
+		E9E236901DA899BC008FE7DB /* TransformMandarinLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformMandarinLatin.h; path = ../Controller/TransformMandarinLatin.h; sourceTree = "<group>"; };
+		E9E236911DA899BC008FE7DB /* TransformMandarinLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformMandarinLatin.m; path = ../Controller/TransformMandarinLatin.m; sourceTree = "<group>"; };
+		E9E236971DA89BFF008FE7DB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E9E236981DA89BFF008FE7DB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +186,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E9ACEA6B1DAA3100001894D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEA6C1DAA3109001894D0 /* icon_01.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E9D2D2251D9E034B0081CBCD = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +236,7 @@
 		E9D2D2311D9E034B0081CBCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9ACEA6B1DAA3100001894D0 /* Resources */,
 				E9D2D26D1D9E05900081CBCD /* PrefixHeader.pch */,
 				E9D2D2371D9E034B0081CBCD /* ViewController.h */,
 				E9D2D2381D9E034B0081CBCD /* ViewController.m */,
@@ -174,6 +244,7 @@
 				E9D2D23D1D9E034B0081CBCD /* Assets.xcassets */,
 				E9D2D23F1D9E034B0081CBCD /* LaunchScreen.storyboard */,
 				E9D2D2421D9E034B0081CBCD /* Info.plist */,
+				E9E236871DA8999E008FE7DB /* cityList.plist */,
 				E9D2D2321D9E034B0081CBCD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -204,6 +275,22 @@
 				E9D2D2721D9E07FB0081CBCD /* MainTabBarController.m */,
 				E9D2D2741D9E08680081CBCD /* RootNavigationController.h */,
 				E9D2D2751D9E08680081CBCD /* RootNavigationController.m */,
+				E9E236971DA89BFF008FE7DB /* BaseViewController.h */,
+				E9E236981DA89BFF008FE7DB /* BaseViewController.m */,
+				E9E2367E1DA87E98008FE7DB /* HallViewController.h */,
+				E9E2367F1DA87E98008FE7DB /* HallViewController.m */,
+				E9E236811DA87EC2008FE7DB /* RescueViewController.h */,
+				E9E236821DA87EC2008FE7DB /* RescueViewController.m */,
+				E9E236841DA87ED9008FE7DB /* MeViewController.h */,
+				E9E236851DA87ED9008FE7DB /* MeViewController.m */,
+				E9E236891DA899BC008FE7DB /* CitySelectionViewController.h */,
+				E9E2368A1DA899BC008FE7DB /* CitySelectionViewController.m */,
+				E98CA6281DA8E5A90088CCB6 /* LoginViewController.h */,
+				E98CA6291DA8E5A90088CCB6 /* LoginViewController.m */,
+				E98CA62B1DA8E7860088CCB6 /* RegisterViewController.h */,
+				E98CA62C1DA8E7860088CCB6 /* RegisterViewController.m */,
+				E9ACEA5A1DA9CC5B001894D0 /* ChangePasswordViewController.h */,
+				E9ACEA5B1DA9CC5B001894D0 /* ChangePasswordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -211,6 +298,10 @@
 		E9D2D2651D9E040E0081CBCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E9ACEA601DA9E9B6001894D0 /* UserModel.h */,
+				E9ACEA611DA9E9B6001894D0 /* UserModel.m */,
+				E9ACEA631DA9FF2B001894D0 /* AccountTool.h */,
+				E9ACEA641DA9FF2B001894D0 /* AccountTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,6 +309,23 @@
 		E9D2D2661D9E040E0081CBCD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E9E2368B1DA899BC008FE7DB /* HotCityTableViewCell.h */,
+				E9E2368C1DA899BC008FE7DB /* HotCityTableViewCell.m */,
+				E9E2368D1DA899BC008FE7DB /* LocationTableViewCell.h */,
+				E9E2368E1DA899BC008FE7DB /* LocationTableViewCell.m */,
+				E9E2368F1DA899BC008FE7DB /* LocationTableViewCell.xib */,
+				E9E236901DA899BC008FE7DB /* TransformMandarinLatin.h */,
+				E9E236911DA899BC008FE7DB /* TransformMandarinLatin.m */,
+				E98CA62E1DA8F02B0088CCB6 /* LoginTableViewCell.h */,
+				E98CA62F1DA8F02B0088CCB6 /* LoginTableViewCell.m */,
+				E9ACEA5D1DA9D225001894D0 /* RegisterAndChangeTableViewCell.h */,
+				E9ACEA5E1DA9D225001894D0 /* RegisterAndChangeTableViewCell.m */,
+				E9ACEA661DAA2D6D001894D0 /* MeIconTableViewCell.h */,
+				E9ACEA671DAA2D6D001894D0 /* MeIconTableViewCell.m */,
+				E9ACEA681DAA2D6D001894D0 /* MeIconTableViewCell.xib */,
+				E9ACEA6E1DAA32E1001894D0 /* MeOtherTableViewCell.h */,
+				E9ACEA6F1DAA32E1001894D0 /* MeOtherTableViewCell.m */,
+				E9ACEA701DAA32E1001894D0 /* MeOtherTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +440,7 @@
 				TargetAttributes = {
 					E9D2D22D1D9E034B0081CBCD = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 3HW52P37DH;
 					};
 					E9D2D2461D9E034B0081CBCD = {
 						CreatedOnToolsVersion = 7.0;
@@ -370,8 +479,13 @@
 			files = (
 				E9D2D2411D9E034B0081CBCD /* LaunchScreen.storyboard in Resources */,
 				E9D2D2811D9E0B050081CBCD /* MBProgressHUD.bundle in Resources */,
+				E9ACEA721DAA32E1001894D0 /* MeOtherTableViewCell.xib in Resources */,
+				E9E236951DA899BC008FE7DB /* LocationTableViewCell.xib in Resources */,
 				E9D2D23E1D9E034B0081CBCD /* Assets.xcassets in Resources */,
 				E9D2D23C1D9E034B0081CBCD /* Main.storyboard in Resources */,
+				E9ACEA6A1DAA2D6D001894D0 /* MeIconTableViewCell.xib in Resources */,
+				E9E236881DA8999E008FE7DB /* cityList.plist in Resources */,
+				E9ACEA6D1DAA3109001894D0 /* icon_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,15 +558,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98CA6301DA8F02B0088CCB6 /* LoginTableViewCell.m in Sources */,
 				E9D2D26C1D9E04640081CBCD /* AFAppDotNetAPIClient.m in Sources */,
+				E9E236991DA89BFF008FE7DB /* BaseViewController.m in Sources */,
 				E9D2D2831D9E0B050081CBCD /* UIBarButtonItem+Item.m in Sources */,
+				E9ACEA5F1DA9D225001894D0 /* RegisterAndChangeTableViewCell.m in Sources */,
 				E9D2D2761D9E08680081CBCD /* RootNavigationController.m in Sources */,
+				E9ACEA691DAA2D6D001894D0 /* MeIconTableViewCell.m in Sources */,
+				E9E236831DA87EC2008FE7DB /* RescueViewController.m in Sources */,
+				E9E236931DA899BC008FE7DB /* HotCityTableViewCell.m in Sources */,
 				E9D2D2731D9E07FB0081CBCD /* MainTabBarController.m in Sources */,
 				E9D2D2841D9E0B050081CBCD /* UIColor+Hex.m in Sources */,
+				E9E236921DA899BC008FE7DB /* CitySelectionViewController.m in Sources */,
 				E9D2D2391D9E034B0081CBCD /* ViewController.m in Sources */,
+				E9E236961DA899BC008FE7DB /* TransformMandarinLatin.m in Sources */,
+				E9E236801DA87E98008FE7DB /* HallViewController.m in Sources */,
+				E9ACEA621DA9E9B6001894D0 /* UserModel.m in Sources */,
 				E9D2D2871D9E0B2F0081CBCD /* CheckDataTool.m in Sources */,
+				E9E236861DA87ED9008FE7DB /* MeViewController.m in Sources */,
 				E9D2D2361D9E034B0081CBCD /* AppDelegate.m in Sources */,
+				E9ACEA651DA9FF2B001894D0 /* AccountTool.m in Sources */,
+				E98CA62D1DA8E7860088CCB6 /* RegisterViewController.m in Sources */,
+				E98CA62A1DA8E5A90088CCB6 /* LoginViewController.m in Sources */,
 				E9D2D2821D9E0B050081CBCD /* MBProgressHUD+HUD.m in Sources */,
+				E9ACEA711DAA32E1001894D0 /* MeOtherTableViewCell.m in Sources */,
+				E9ACEA5C1DA9CC5B001894D0 /* ChangePasswordViewController.m in Sources */,
+				E9E236941DA899BC008FE7DB /* LocationTableViewCell.m in Sources */,
 				E9D2D2331D9E034B0081CBCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,12 +726,15 @@
 			baseConfigurationReference = BFE3A73C2637DB1E5CE72DE2 /* Pods-IntraCityService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/ioi/Desktop/同城/IntraCityService/IntraCityService/PrefixHeader.pch";
 				INFOPLIST_FILE = IntraCityService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.IntraCityService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -609,12 +743,15 @@
 			baseConfigurationReference = 974DCE5D5C27D2745490E03C /* Pods-IntraCityService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/ioi/Desktop/同城/IntraCityService/IntraCityService/PrefixHeader.pch";
 				INFOPLIST_FILE = IntraCityService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ningchanglong.IntraCityService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

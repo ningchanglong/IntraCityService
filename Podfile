@@ -9,6 +9,9 @@ target 'IntraCityService' do
     pod "MJRefresh"
     pod "MBProgressHUD"
     pod "Masonry"
+    pod 'AMap3DMap'
+    pod ‘AMapSearch’
+    pod 'AMapLocation'
 end
 
 target 'IntraCityServiceTests' do

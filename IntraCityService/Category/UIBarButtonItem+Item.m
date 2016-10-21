@@ -36,6 +36,19 @@
     return [[UIBarButtonItem alloc] initWithCustomView:containView];
 }
 
++(UIBarButtonItem *)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action
+{
+    NSString *str = [NSString stringWithFormat:@"  %@  ",title];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:str forState:UIControlStateNormal];
+    [btn sizeToFit];
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    UIView *containView = [[UIView alloc] initWithFrame:btn.bounds];
+    [containView addSubview:btn];
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:containView];
+}
+
 + (UIBarButtonItem *)backItemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title
 {
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
